@@ -1,6 +1,6 @@
 {
   "packages": [
-    "meterials/*"
+    "materials/*"
   ],
   "version": "independent",
   "command" : {

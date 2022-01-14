@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "clean": "rm -rf node_modules **/*/node_modules"
+    "clean": "rm -rf node_modules **/*/node_modules",
+    "build:mater": "pnpm run build -r"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
