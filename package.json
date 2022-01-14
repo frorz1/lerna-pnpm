@@ -4,7 +4,9 @@
   "scripts": {
     "clean": "rm -rf node_modules **/*/node_modules",
     "build:mater": "lerna run --stream --sort build",
-    "commit": "git cz"
+    "commit": "git cz",
+    "release": "pnpm build:master && lerna publish",
+    "release:beta": "pnpm build:master && lerna publish --canary"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
