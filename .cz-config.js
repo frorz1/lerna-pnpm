@@ -14,12 +14,12 @@ module.exports = {
     {value: 'revert',   name: 'revert:    代码回退'}
   ],
 
-  scopes: [
-    {name: '模块1'},
-    {name: '模块2'},
-    {name: '模块3'},
-    {name: '模块4'}
-  ],
+  // scopes: [
+  //   {name: '模块1'},
+  //   {name: '模块2'},
+  //   {name: '模块3'},
+  //   {name: '模块4'}
+  // ],
 
   // it needs to match the value for field type. Eg.: 'fix'
   /*
@@ -46,7 +46,7 @@ module.exports = {
   },
 
   allowCustomScopes: true,
-  allowBreakingChanges: ['特性', '修复'],
+  allowBreakingChanges: ['feat', 'fix'],
 
   // limit subject length
   subjectLimit: 100
