@@ -1,0 +1,17 @@
+{
+  "packages": [
+    "meterials/*"
+  ],
+  "version": "independent",
+  "command" : {
+    "publish": {
+      "conventionalCommits": true,
+      "yes": true,
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish"
+    },
+    "version": {
+      "allowBranch": "master"
+    }
+  }
+}
