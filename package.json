@@ -6,7 +6,7 @@
     "build:mater": "lerna run --stream --sort build",
     "commit": "git cz",
     "release": "pnpm build:master && lerna publish",
-    "release:beta": "pnpm build:master && lerna publish --canary"
+    "release:beta": "pnpm build:mater && lerna publish --canary"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
