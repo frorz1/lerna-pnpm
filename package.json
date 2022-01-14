@@ -5,7 +5,7 @@
     "clean": "rm -rf node_modules **/*/node_modules",
     "build:mater": "lerna run --stream --sort build",
     "commit": "git cz",
-    "release": "pnpm build:master && lerna publish",
+    "release": "pnpm build:mater && lerna publish",
     "release:beta": "pnpm build:mater && lerna publish --canary"
   },
   "devDependencies": {
