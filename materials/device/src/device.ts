@@ -9,3 +9,9 @@ export const isIPhone = () => testUa('iP(hone|od)')
 export const isIPad = () => testUa('iPad')
 
 export const isAndroid = () => testUa('Android')
+
+export const isWechat = () => testUa('micromessenger')
+
+export const isQQ = () => testUa('QQ')
+
+export const isWeibo = () => testUa('weibo')
