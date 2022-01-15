@@ -1,7 +1,6 @@
 {
   "packages": [
-    "materials/*",
-    "app"
+    "materials/*"
   ],
   "version": "independent",
   "command" : {
