@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf node_modules **/*/node_modules",
-    "build:mater": "lerna run --stream --sort build",
+    "build:lerna": "lerna run --stream --scope @yuue/* build",
+    "build:mater": "pnpm run -r --stream --filter=./materials build",
     "commit": "git cz",
     "release": "pnpm build:mater && lerna publish",
     "release:beta": "pnpm build:mater && lerna publish --canary"

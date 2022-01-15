@@ -1,2 +1,2 @@
-export { getUserAgent, isIOS, isAndroid, isIPhone, isWechat, isWeibo, isQQ } from './device'
+export { getUserAgent, isIOS, isIPhone, isWechat, isWeibo, isQQ } from './device'
  
