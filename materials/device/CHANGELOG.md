@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/frorz1/lerna-pnpm/compare/@yuue/device@1.3.0...@yuue/device@1.3.1) (2022-01-15)
+
+
+### Bug Fixes
+
+* remove and ([954fe48](https://github.com/frorz1/lerna-pnpm/commit/954fe48c56c42fb072fb52301b5ac4ecac4f5417))
+
+
+
+
+
 # [1.3.0](https://github.com/frorz1/lerna-pnpm/compare/@yuue/device@1.2.0...@yuue/device@1.3.0) (2022-01-15)
 
 
