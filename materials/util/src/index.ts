@@ -1,2 +1,2 @@
-export { add, isArray } from './math'
+export { add, isArray, logUa } from './math'
  
