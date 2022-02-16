@@ -16,4 +16,4 @@ export const isQQ = () => testUa('QQ')
 
 export const isWeibo = () => testUa('weibo')
 
-export const test = () => testUa('weibo')
+export const test = () => testUa('weibo22')
