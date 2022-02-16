@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "pnpm run clean --filter @yuue/util && npm run build:ts",
+    "build": "pnpm run clean --filter @yuue/util && vite build && pnpm build:ts",
     "clean": "rm -rf dist && rm -rf lib",
     "build:ts": "tsc -p src"
   },
