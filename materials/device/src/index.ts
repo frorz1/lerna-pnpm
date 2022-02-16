@@ -1,2 +1,2 @@
-export { getUserAgent, isIOS, isIPhone, isWechat } from './device'
+export { getUserAgent, isIOS, isIPhone, isWechat, test } from './device'
  
