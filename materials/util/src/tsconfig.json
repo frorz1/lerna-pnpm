@@ -3,8 +3,9 @@
   "compilerOptions": {
     "outDir": "../lib",
     "baseUrl": ".",
+    "declaration": true,
     "paths": {
-      "@yuue/*": ["../../*/src/"]
+      // "@yuue/*": ["../../*/src"]
     },
   },
   "include": [

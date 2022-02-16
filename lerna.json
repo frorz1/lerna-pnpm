@@ -1,6 +1,5 @@
 {
   "packages": [
-    "app/*",
     "materials/*"
   ],
   "version": "independent",
@@ -9,7 +8,7 @@
       "conventionalCommits": true,
       "yes": true,
       "ignoreChanges": ["ignored-file", "*.md"],
-      "message": "chore(release): publish"
+      "message": "chore(release): publish %s"
     },
     "version": {
       "allowBranch": "master"

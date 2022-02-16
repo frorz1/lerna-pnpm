@@ -1,7 +1,6 @@
-import { getUserAgent } from '@yuue/device'
-
+import { isIOS } from '@yuue/device'
 export const logUa = () => {
-  console.log(getUserAgent())
+  console.log(isIOS())
 }
 
 export const add = (x: number, y: number) => {
@@ -10,4 +9,8 @@ export const add = (x: number, y: number) => {
 
 export const isArray = (arr: []) => {
   return Array.isArray(arr)
+}
+
+export const testTs = () => {
+  return 123
 }

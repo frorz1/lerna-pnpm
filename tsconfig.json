@@ -29,7 +29,4 @@
       "preserveConstEnums": true,
       "noEmitOnError": true,
   },
-  "include": ["src/*.ts"],
-  "exclude": [],
-  "files": []
 }

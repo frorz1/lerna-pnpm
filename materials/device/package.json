@@ -1,6 +1,6 @@
 {
   "name": "@yuue/device",
-  "version": "1.5.0",
+  "version": "2.5.1",
   "description": "",
   "main": "dist/index.js",
   "module": "lib/index.js",
@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run clean --filter @yuue/device && vite build && npm run build:ts",
+    "build": "vite build && npm run build:ts",
     "clean": "rm -rf dist && rm -rf lib",
     "build:ts": "tsc -p src"
   },
