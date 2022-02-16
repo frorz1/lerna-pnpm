@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.1](https://github.com/frorz1/lerna-pnpm/compare/@yuue/util@1.3.2...@yuue/util@2.6.1) (2022-02-16)
+
+
+
+# 2.6.0 (2022-02-16)
+
+**Note:** Version bump only for package @yuue/util
+
+
+
+
+
 # 2.6.0 (2022-02-16)
 
 

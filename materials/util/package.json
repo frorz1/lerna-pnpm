@@ -1,6 +1,6 @@
 {
   "name": "@yuue/util",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "",
   "main": "dist/index.js",
   "module": "lib/index.js",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.16.8",
-    "@yuue/device": "^2.6.0",
+    "@yuue/device": "^2.6.1",
     "core-js": "^3.20.2"
   },
   "gitHead": "3f57d4be5a1691b44f835e32a0f4a83cee75d7e5"
