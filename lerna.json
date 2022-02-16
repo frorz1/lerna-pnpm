@@ -2,12 +2,15 @@
   "packages": [
     "materials/*"
   ],
-  "version": "1.5.0",
-  "command" : {
+  "version": "2.6.0",
+  "command": {
     "publish": {
       "conventionalCommits": true,
       "yes": true,
-      "ignoreChanges": ["ignored-file", "*.md"],
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
       "message": "chore(release): publish %s"
     },
     "version": {
